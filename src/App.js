@@ -3,25 +3,25 @@ import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
 import AssetsView from './components/assetsTable'
+import ModulesAffectedByAsset from './components/modulesAffectedByAsset'
+import NavBar from './components/navBar'
+import ModulesView from './components/modulesView'
+import PyramidView from './components/pyramidView'
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <React.Fragment>
+        <NavBar />
+        
         <Switch>
-          <Route path="/" component={AssetsView}></Route>
-        </Switch> 
-      </BrowserRouter>
-      
-
-      // <React.Fragment>
-      //   {/* <NavBar /> */}
-      //   <main className="container">
-      //   <Switch>
-      //     <Route path="/assetsView" component={AssetsView}></Route>
-      //   </Switch>     
-      //   </main>
-      // </React.Fragment>  
+            <Route path="/assets/:assetName" component={ModulesAffectedByAsset}></Route>
+            {/* <Route path="/assets" component={ModulesAffectedByAsset}></Route> */}
+            <Route path = "/modules" component={ModulesView}></Route>
+            <Route path = "/pyramid" component={PyramidView}></Route>
+            <Route path="/" component={AssetsView}></Route>
+          </Switch> 
+      </React.Fragment>
     );
   }
 }

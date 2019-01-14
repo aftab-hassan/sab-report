@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { getAssets } from '../services/assets';
+import {Link} from 'react-router-dom';
 
 class AssetsTable extends Component{
 
@@ -19,28 +20,11 @@ class AssetsTable extends Component{
                 </thead>
 
                 <tbody>
-                    {/* <tr>
-                        <td>1</td>
-                        <td>Tooltip</td>
-                        <td>+100</td>
-                    </tr>
-
-                    <tr>
-                        <td>2</td>
-                        <td>DetailsList</td>
-                        <td>+20</td>
-                    </tr>
-
-                    <tr>
-                        <td>3</td>
-                        <td>DatePicker</td>
-                        <td>+3</td>
-                    </tr> */}
-
                     {this.state.assets.map(asset => (
                             <tr>
                                 <td>{asset.serial}</td>
-                                <td>{asset.asset}</td>
+                                {/* <td>{asset.asset}</td> */}
+                                <td><Link to={`/assets/${asset.name}`}>{asset.name}</Link></td>
                                 <td>{asset.sizeDifference}</td>
                             </tr>
                         ))
