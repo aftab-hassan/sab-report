@@ -11,7 +11,7 @@ class AssetsTable extends Component{
     render(){
         console.log('this.props.assets: ' + this.props.assets)
         return(
-            <table className="table">
+            <table className="table col-md-10">
                 <thead>
                     <tr>
                         <th>Serial</th>

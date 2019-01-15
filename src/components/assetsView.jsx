@@ -24,7 +24,7 @@ class AssetsView extends Component{
                     <div className="col-2">
                     
                     </div>
-                    <div className="col">
+                    <div className="col-md-6">
                         <SearchBox onChange={this.handleSearch}/>
 
                         <p>

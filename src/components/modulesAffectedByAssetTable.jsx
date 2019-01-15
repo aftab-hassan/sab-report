@@ -12,7 +12,7 @@ class ModulesAffectedByAssetTable extends Component{
         console.log('in ModulesAffectedByAssetTable : ' + this.state.asset)
 
         return(
-            <table className="table">
+            <table id="modulesAffectedByAssetTable" className="table col-md-8">
                 <thead>
                     <tr>
                         <th>Serial</th>
