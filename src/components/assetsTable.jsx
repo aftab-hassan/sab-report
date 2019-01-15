@@ -5,10 +5,11 @@ import {Link} from 'react-router-dom';
 class AssetsTable extends Component{
 
     state = {
-        assets: getAssets()
+        // assets: getAssets()
     }
 
     render(){
+        console.log('this.props.assets: ' + this.props.assets)
         return(
             <table className="table">
                 <thead>
@@ -20,10 +21,9 @@ class AssetsTable extends Component{
                 </thead>
 
                 <tbody>
-                    {this.state.assets.map(asset => (
+                    {this.props.assets.map(asset => (
                             <tr>
                                 <td>{asset.serial}</td>
-                                {/* <td>{asset.asset}</td> */}
                                 <td><Link to={`/assets/${asset.name}`}>{asset.name}</Link></td>
                                 <td>{asset.sizeDifference}</td>
                             </tr>

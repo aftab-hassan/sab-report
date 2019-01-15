@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
-import AssetsView from './components/assetsTable'
+import AssetsView from './components/assetsView'
 import ModulesAffectedByAsset from './components/modulesAffectedByAsset'
 import NavBar from './components/navBar'
 import ModulesView from './components/modulesView'
