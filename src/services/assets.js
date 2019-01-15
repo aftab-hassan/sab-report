@@ -2,7 +2,7 @@ export const assets = [
 	{
         serial:"1",
 		name: "Tooltip",
-		sizeDifference: "+100",
+		sizeDifference: "+1000",
 		modulesAffected: [
 			{
 				serial:"1",
@@ -19,7 +19,7 @@ export const assets = [
 	{
         serial:"2",
 		name: "DetailsList",
-		sizeDifference: "+50",
+		sizeDifference: "+500",
 		modulesAffected: [
 			{
 				serial:"1",
@@ -41,7 +41,7 @@ export const assets = [
 	{
         serial:"3",
 		name: "DatePicker",
-		sizeDifference: "+30",
+		sizeDifference: "+300",
 		modulesAffected: [
 			{
 				serial:"1",
@@ -53,7 +53,7 @@ export const assets = [
 	{
         serial:"4",
 		name: "Button",
-		sizeDifference: "+10",
+		sizeDifference: "+100",
 		modulesAffected: [
 			{
 				serial:"1",
@@ -65,7 +65,7 @@ export const assets = [
 	{
         serial:"5",
 		name: "Slider",
-		sizeDifference: "+5",
+		sizeDifference: "+50",
 		modulesAffected: [
 			{
 				serial:"1",
@@ -87,7 +87,7 @@ export const assets = [
 	{
         serial:"6",
 		name: "Toggle",
-		sizeDifference: "+4",
+		sizeDifference: "+40",
 		modulesAffected: [
 			{
 				serial:"1",
@@ -104,6 +104,114 @@ export const assets = [
 	{
         serial:"7",
 		name: "TextField",
+		sizeDifference: "+30",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"8",
+		name: "Breadcrumb",
+		sizeDifference: "+20",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"9",
+		name: "CommandBar",
+		sizeDifference: "+10",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"10",
+		name: "OverflowSet",
+		sizeDifference: "+9",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"11",
+		name: "Pivot",
+		sizeDifference: "+8",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"12",
+		name: "SearchBox",
+		sizeDifference: "+7",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"13",
+		name: "ActivityItem",
+		sizeDifference: "+6",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"14",
+		name: "Calendar",
+		sizeDifference: "+5",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"15",
+		name: "Facepile",
+		sizeDifference: "+4",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"16",
+		name: "GroupedList",
 		sizeDifference: "+3",
 		modulesAffected: [
 			{

@@ -7,10 +7,11 @@ import Pagination from './pagination';
 class AssetsView extends Component{
     
     state={
-        totalAssetCount:7,
+        assets: getAssets(),
+        totalAssetCount:getAssets().length,
         searchString: '',
         currentPage : 1,
-        pageSize:3
+        pageSize:5
     };
 
     render(){
@@ -67,7 +68,7 @@ class AssetsView extends Component{
     }
 
     getAssetsToDisplay = () => {
-        const assets = getAssets();
+        const assets = this.state.assets;
         // this.setState( {totalAssetCount: assets.length});
         console.log(JSON.stringify(assets))
         
