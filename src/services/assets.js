@@ -61,6 +61,57 @@ export const assets = [
 				sizeDifference:"+60"
 			}
 		]
+	},
+	{
+        serial:"5",
+		name: "Slider",
+		sizeDifference: "+5",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/Slider/Slider.base.js",
+				sizeDifference:"+1"
+			},
+			{
+				serial:"2",
+				name:"lib-commonjs/components/Slider/index.js",
+				sizeDifference:"+2"
+			},
+			{
+				serial:"3",
+				name:"lib-commonjs/components/ColorPicker/ColorSlider/ColorSlider.js",
+				sizeDifference:"+1"
+			}
+		]
+	},
+	{
+        serial:"6",
+		name: "Toggle",
+		sizeDifference: "+4",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/Toggle/Toggle.base.js",
+				sizeDifference:"+60"
+			},
+			{
+				serial:"2",
+				name:"lib-commonjs/components/Toggle/Toggle.styles.js",
+				sizeDifference:"+60"
+			}
+		]
+	},
+	{
+        serial:"7",
+		name: "TextField",
+		sizeDifference: "+3",
+		modulesAffected: [
+			{
+				serial:"1",
+				name:"lib-commonjs/components/TextField/TextField.js",
+				sizeDifference:"+1"
+			}
+		]
 	}
 ]
 
