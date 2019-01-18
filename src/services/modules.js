@@ -2,7 +2,7 @@ export const modules = [
 	{
         serial:"1",
 		name:"lib-commonjs/components/Tooltip/Tooltip.base.js",
-		sizeDifference:"+100",
+		sizeDifference:"+1000",
 		assetsImpactedCount:3,
 		assetsImpactedNames:[
 			"Tooltip",
@@ -13,7 +13,7 @@ export const modules = [
     {
         serial:"2",
         name:"lib-commonjs/components/TextField/TextField.js",
-        sizeDifference:"+50",
+        sizeDifference:"+900",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "OverflowSet",
@@ -23,7 +23,7 @@ export const modules = [
     {
         serial:"3",
         name:"packages/office-ui-fabric-react/lib-commonjs/components/Calendar/CalendarYear.js",
-        sizeDifference:"+50",
+        sizeDifference:"+800",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "CalendarYear",
@@ -33,7 +33,7 @@ export const modules = [
     {
         serial:"4",
         name:"packages/office-ui-fabric-react/lib-commonjs/components/Calendar/CalendarMonth.js",
-        sizeDifference:"+50",
+        sizeDifference:"+750",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "OverflowSet",
@@ -43,7 +43,7 @@ export const modules = [
     {
         serial:"5",
         name:"lib-commonjs/components/ThemeGenerator/ThemeRulesStandard.js",
-        sizeDifference:"+50",
+        sizeDifference:"+650",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "ThemeRulesStandard",
@@ -53,7 +53,7 @@ export const modules = [
     {
         serial:"6",
         name:"lib-commonjs/components/MessageBar/MessageBar.styles.js",
-        sizeDifference:"+50",
+        sizeDifference:"+570",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "OverflowSet",
@@ -63,7 +63,7 @@ export const modules = [
     {
         serial:"7",
         name:"lib-commonjs/components/Sticky/Sticky.js",
-        sizeDifference:"+50",
+        sizeDifference:"+560",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "OverflowSet",
@@ -73,7 +73,7 @@ export const modules = [
     {
         serial:"8",
         name:"components/FloatingPicker/Suggestions/SuggestionsControl.scss.js",
-        sizeDifference:"+50",
+        sizeDifference:"+510",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "SuggestionsControl",
@@ -83,7 +83,7 @@ export const modules = [
     {
         serial:"9",
         name:"components/ExtendedPicker/examples/PeopleExampleData.js",
-        sizeDifference:"+50",
+        sizeDifference:"+500",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "OverflowSet",
@@ -93,7 +93,7 @@ export const modules = [
     {
         serial:"10",
         name:"lib-commonjs/components/DocumentCard/DocumentCard.js",
-        sizeDifference:"+50",
+        sizeDifference:"+450",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "OverflowSet",
@@ -103,7 +103,7 @@ export const modules = [
     {
         serial:"11",
         name:"lib-commonjs/components/ColorPicker/ColorRectangle/ColorRectangle.styles.js",
-        sizeDifference:"+50",
+        sizeDifference:"+445",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "ColorRectangle",
@@ -113,7 +113,7 @@ export const modules = [
     {
         serial:"12",
         name:"lib-commonjs/components/Coachmark/index.js",
-        sizeDifference:"+50",
+        sizeDifference:"+350",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "Coachmark",
@@ -123,7 +123,7 @@ export const modules = [
     {
         serial:"13",
         name:"lib-commonjs/ChoiceGroupOption.js",
-        sizeDifference:"+50",
+        sizeDifference:"+250",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "ChoiceGroupOption",
@@ -133,7 +133,7 @@ export const modules = [
     {
         serial:"14",
         name:"lib-commonjs/components/ActivityItem/ActivityItem.styles.js",
-        sizeDifference:"+50",
+        sizeDifference:"+150",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "ActivityItem",
@@ -143,7 +143,7 @@ export const modules = [
     {
         serial:"15",
         name:"lib-commonjs/KeytipLayer.js",
-        sizeDifference:"+50",
+        sizeDifference:"+100",
         assetsImpactedCount:2,
         assetsImpactedNames:[
             "KeytipLayer",

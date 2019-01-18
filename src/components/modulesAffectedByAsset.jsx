@@ -7,7 +7,7 @@ class ModulesAffectedByAsset extends Component{
     }
 
     render(){
-        console.log(this.props.match.params.assetName)
+        // console.log(this.props.match.params.assetName)
         return(
             <div className="row">
                 <div className="col-2">

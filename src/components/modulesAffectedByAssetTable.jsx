@@ -8,9 +8,9 @@ class ModulesAffectedByAssetTable extends Component{
     }
 
     render(){
-        console.log('in ModulesAffectedByAssetTable, this.props.assetName : ' + this.props.assetName)
-        console.log('in ModulesAffectedByAssetTable : ' + this.state.asset)
-        console.log('in ModulesAffectedByAssetTable, na,e : ' + this.props.assetName)
+        // console.log('in ModulesAffectedByAssetTable, this.props.assetName : ' + this.props.assetName)
+        // console.log('in ModulesAffectedByAssetTable : ' + this.state.asset)
+        // console.log('in ModulesAffectedByAssetTable, na,e : ' + this.props.assetName)
 
         return(
             <table id="modulesAffectedByAssetTable" className="table col-md-8">

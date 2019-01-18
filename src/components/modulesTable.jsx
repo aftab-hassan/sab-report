@@ -9,7 +9,7 @@ class ModulesTable extends Component{
     }
 
     render(){
-        console.log('this.props.modules: ' + this.props.modules)
+        // console.log('this.props.modules: ' + this.props.modules)
         return(
             <table className="table col-md-10">
                 <thead>

@@ -67,6 +67,7 @@ class ModulesView extends Component{
     getModulesToDisplay = () => {
         const modules = this.state.modules;
         console.log(JSON.stringify(modules))
+        console.log('inside getAssetsToDisplay')
         
         // applying prefix search
         var modulesToDisplay = modules.filter(m => m.name.toLowerCase().startsWith(this.state.searchString))

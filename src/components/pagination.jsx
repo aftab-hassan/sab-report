@@ -6,11 +6,11 @@ class Pagination extends Component{
     }
 
     render(){
-        console.log(this.props.totalItems)
-        console.log(this.props.pageSize)
+        // console.log(this.props.totalItems)
+        // console.log(this.props.pageSize)
 
         let numberOfPages = Math.ceil(this.props.totalItems/this.props.pageSize);
-        console.log(numberOfPages)
+        // console.log(numberOfPages)
 
         var pages = []
         for(var i=1;i<=numberOfPages;i++){

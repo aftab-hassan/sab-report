@@ -16,8 +16,8 @@ class AssetsView extends Component{
 
     render(){
         let assetsToDisplay = this.getAssetsToDisplay();
-        console.log('here : ' + JSON.stringify(assetsToDisplay)) 
-        console.log('inside render : assetsToDisplay.length == ' + assetsToDisplay.length)
+        // console.log('here : ' + JSON.stringify(assetsToDisplay)) 
+        // console.log('inside render : assetsToDisplay.length == ' + assetsToDisplay.length)
 
         if(assetsToDisplay.length == 0){
             return(
@@ -60,7 +60,7 @@ class AssetsView extends Component{
     }
 
     handleSearch = (assetName) => {
-        this.setState({searchString:assetName})
+        this.setState({searchString:assetName, currentPage: 1})
     }
 
     handlePageChange = (page) => {
@@ -68,6 +68,7 @@ class AssetsView extends Component{
     }
 
     getAssetsToDisplay = () => {
+        console.log('inside getAssetsToDisplay')
         const assets = this.state.assets;
         // this.setState( {totalAssetCount: assets.length});
         console.log(JSON.stringify(assets))
@@ -79,8 +80,8 @@ class AssetsView extends Component{
         // applying pagination
         var fromIndex = (parseInt((this.state.currentPage-1)) * parseInt(this.state.pageSize));
         var toIndex = Math.min( ((this.state.currentPage)*this.state.pageSize), this.state.totalAssetCount )
-        console.log('fromIndex == ' + fromIndex)
-        console.log('toIndex == ' + toIndex)
+        // console.log('fromIndex == ' + fromIndex)
+        // console.log('toIndex == ' + toIndex)
         assetsToDisplay = assetsToDisplay.slice( fromIndex, toIndex ) 
         console.log('upon applying pagination : assetsToDisplay == ' + JSON.stringify(assetsToDisplay))
 

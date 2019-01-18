@@ -9,7 +9,7 @@ class AssetsTable extends Component{
     }
 
     render(){
-        console.log('this.props.assets: ' + this.props.assets)
+        // console.log('this.props.assets: ' + this.props.assets)
         return(
             <table className="table col-md-10">
                 <thead>
